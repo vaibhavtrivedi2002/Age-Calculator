@@ -1,12 +1,13 @@
 body {
     font-family: sans-serif;
     padding: 100px;
-    background: linear-gradient(to right, #f2f2f2, #d6d6d6);
+    background-color: black;
 }
 
 .container {
     max-width: 400px;
     margin: 0 auto;
+    background-color:white;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -34,19 +35,14 @@ input[type="date"] {
 }
 
 #calculate {
-    background-color: #4c61af;
+    background-color: black;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 10px;
-    margin-left: 375px;
-    transition: background-color 0.2s ease-in-out;
-}
-
-#calculate:hover {
-    background-color: #42A545;
+   margin-left: 135px;
 }
 
 #result {
